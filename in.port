@@ -1,0 +1,13 @@
+fn Soma(a: i32){
+  retorne a+1;
+}
+fn Main()
+{
+  var x: i32;
+  x = leia();
+  enquanto(x<4){
+    imprima(Soma(x));
+    x=x+1;
+  }
+  
+}
